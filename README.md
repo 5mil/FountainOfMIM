@@ -1,9 +1,5 @@
-# Fountain of MIM 🪄
+# Fountain of MIM
 
-The Ars Notoria-infused Kruskal Count faucet for MIM.
+Zig WASM Faucet for Wasmer.io
 
-## Deployment
-1. Select `staticfile` preset in Wasmer.
-2. Import GitHub repo.
-
-The magic flows!
+Build: zig build-lib faucet.zig -target wasm32-wasi
