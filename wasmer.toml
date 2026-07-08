@@ -1,0 +1,6 @@
+[package]
+name = "fountain-of-mim"
+version = "0.1.0"
+description = "Kruskal Magic MIM Faucet"
+entrypoint = "faucet.wasm"
+runtime = "wasix"
