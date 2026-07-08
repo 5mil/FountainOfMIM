@@ -2,4 +2,8 @@
 
 Zig WASM Faucet for Wasmer.io
 
-Build: zig build-lib faucet.zig -target wasm32-wasi
+## Deploy
+1. Build: zig build-lib faucet.zig -target wasm32-wasi -femit-bin=faucet.wasm
+2. wasmer deploy
+
+The magic trick and wallet validation run in WASM.
